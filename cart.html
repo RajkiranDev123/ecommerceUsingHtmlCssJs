@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Raj Shop</title>
+    <link rel="stylesheet" href="src/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+    />
+</head>
+<body  style="background-image: linear-gradient(to right, #7c7999, #d3d2dd, #ffffff);">
+        <!-- navbar starts (parent) -->
+        <div class="navbar">
+            <!-- child 1 -->
+             <a  href="index.html">
+            <h2>🛒Raj Shop</h2>
+      
+             </a>
+      
+            <!-- child 2 -->
+      
+            <div class="cartContainer">
+              <!-- <a style="color: aliceblue; text-decoration: none" href=""
+                >Login</a
+              >
+              <a style="color: aliceblue; text-decoration: none" href=""
+                >SignUp</a
+              > -->
+            <a href="cart.html">
+              <div  class="cart">
+                <i class="bi bi-cart3"></i>
+                <div id="cartAmount" class="cartAmount">0</div>
+              </div>
+            </a>
+           
+            </div>
+          </div>
+          <!-- navbar ends -->
+
+          <!-- total amt , checkout and clear button -->
+          <div id="label" class="text-center"></div>
+
+
+
+          <div id="shopping-cart" class="shopping-cart"></div>
+
+    <p style="margin: 2px;"></p>
+ <!-- footer starts -->
+
+ <div style="display: flex;justify-content: center;align-items: center;flex-wrap: wrap;
+ background-color: black;color: white;height: 149px;padding: 6px;gap:6px">
+ <div style="display: flex;flex-direction: column;justify-content: flex-start;margin: 2px;"> 
+  <a href="index.html"><p>🏦Home</p></a>
+  <a href="about.html"><p>About Us</p></a>
+  <a href="terms.html"><p>Terms&Conditions</p></a>
+ <a href="privacy.html"><p>Privacy Policy</p></a> 
+</div>
+
+ 
+<div style="display: flex;flex-direction: column;justify-content: flex-start;margin: 2px;"> 
+
+  <p><span>🕻 Phone</span> : <span>6775432343</span></p>
+  <p><span>✉︎ Email</span> : <span>rajtech645@gmail.com</span></p>
+
+  <p style="word-break:break-word;"><span>⚲ Address</span> : <span>Bangalore</span></p>
+</div>
+
+  
+
+
+
+ </div>
+
+
+
+<!-- footer ends -->
+
+<script src="src/data.js"></script>
+
+    <script src="src/cart.js"></script>
+</body>
+</html>
